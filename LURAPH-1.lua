@@ -5044,6 +5044,9 @@ function library:CreateWindow(options, ...)
                 if Name == "Element Text" or options.Name == "Element Text" then
                     options.Rainbow = true
                 end
+                if Name == "Main" or options.Name == "Main" then
+                    options.Rainbow = true
+                end
 				if options.Random == true then
 					options.Value = "random"
 				elseif options.Rainbow == true then
